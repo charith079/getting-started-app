@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build your Docker image
-                    bat 'docker build -t week-789 .'
+                    bat 'docker build -t getting-started-app .'
                 }
             }
         }
